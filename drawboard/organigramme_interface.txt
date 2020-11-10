@@ -1,0 +1,47 @@
+BANNIÈRE :
+
+logo.png -> accueil.html
+Accueil.bt -> accueil.html
+Produits.bt -> produit.html
+Chantiers_Récents.bt -> chantier.html
+Contact.bt -> contact.html
+Stages.bt -> stage.html
+
+
+BANDE DE FIN DE PAGE :
+
+logo.png -> accueil.html
+charte.bt -> charte.html
+partage.bt -> vers page fb, twitter, etc...
+
+
+BANDE CERTIF :
+
+Renvoi vers page des certifications détenues à ce jour
+ex.: Qualibat -> www.qualibat.com
+
+
+
+PRODUITS :
+
+///////
+
+
+CHANTIERS RECENTS :
+
+éventuels 'en savoir plus'
+
+
+CONTACT :
+
+formulaire de contact. cases à cocher (devis - informations)
+OBLIGATOIRE : Nom + email client
+Preview.bt -> contact_previewtxt.html
+Envoyer.bt -> mailto:artisan with formulaire
+
+supplément : encadré streetview
+
+
+STAGES :
+
+bouton mailto:artisan
