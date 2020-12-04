@@ -1,0 +1,325 @@
+.pieds {
+    display: flex;
+    background: #5DADE2;
+    height: 150px;
+}
+.unbas {
+  margin-left: 1%;
+  margin-top: auto;
+  margin-bottom: auto;
+  flex: 1 1 auto;
+
+}
+.deuxbas{
+  margin-top: auto;
+  margin-bottom: auto;
+  flex: 1 1 auto;
+}
+
+.troisbas {
+
+  margin-top: auto;
+  margin-bottom: auto;
+  flex: 1 1 auto;
+}
+.quatrebas {
+
+  margin-top: auto;
+  margin-bottom: auto;
+  flex: 1 1 auto;
+}
+.cinqbas{
+  margin-top: auto;
+  margin-bottom: auto;
+  flex: 1 1 auto;
+}
+.sixbas{
+  right: 1%;
+  margin-top: auto;
+  margin-bottom: auto;
+  flex: 1 1 auto;
+}
+
+header{
+  z-index: 1;
+  margin-top: -0.5%;
+  margin-left: -1%;
+  width: 101.4%;
+  height: 150px;
+  background-color: #696969;
+
+}
+body{
+  background:#593527;
+}
+.header {
+    display: flex;
+}
+.un {
+  margin-left: 35%;
+  margin-top: auto;
+  margin-bottom: auto;
+  flex: 1 1 auto;
+}
+.deux{
+  margin-left :5%;
+  margin-top: auto;
+  margin-bottom: auto;
+  flex: 1 1 auto;
+}
+
+.trois {
+  margin-top: auto;
+  margin-bottom: auto;
+  flex: 1 1 auto;
+}
+.quatre {
+  margin-right :5%;
+  margin-top: auto;
+  margin-bottom: auto;
+  flex: 1 1 auto;
+}
+.cinq{
+  margin-top: auto;
+  margin-bottom: auto;
+  flex: 1 1 auto;
+
+}
+.six{
+  text-decoration: underline;
+  margin-right: 5%;
+  margin-top: auto;
+  margin-bottom: auto;
+  flex: 1 1 auto;
+}
+.centrecontact{
+  height: 700px;
+  margin-left: 30%;
+  width: 40%;
+
+}
+.centrerejoindre{
+  height: 450px;
+  margin-left: 30%;
+  width: 40%;
+
+}
+.logobas{
+height: 150px;
+width: 200px;
+
+}
+a , h3{
+  color: black;
+  text-decoration: none;
+  font-family:'Ananda';
+  font-size: 16px;
+}
+.logo{
+  height: 100px;
+  width: 100px;
+  margin-left: 25%;
+}
+footer{
+  margin-left: -1%;
+  margin-bottom: -1%;
+}
+.longimg{
+width: 70%;
+height: 300px;
+margin-left: 15%;
+
+}
+.njimg{
+  margin-top: -2%;
+  width: 101.4%;
+  margin-left: -1%;
+  height: 300px;
+}
+.fontcontact{
+  margin-left: -1%;
+  margin-top: -2%;
+  width: 101.4%;
+  background: white;
+  height: 300px;
+}
+.fontbody{;
+  margin-left: -1%;
+
+}
+.cadre{
+margin-top: -3%;
+border-top: white 5px;
+background: white;
+
+}
+.test1{
+height: 20px;
+margin-left: -1%;
+
+}
+form{
+  color: white;
+}
+.centreaccueil{
+height: 500px;
+
+
+}
+
+.bandeaccueil {
+  margin-top:-2.5%;
+  margin-left: -1%;
+  width: 101.4%;
+  height: 500px;
+}
+.accueilentreprise{
+  margin-top: -2%;
+}
+.accueilautre{
+  margin-top: -2%;
+}
+.imgpouvreage {
+  max-width: 100%;
+  height: auto;
+}
+.entreprise{
+  max-width: 110%;
+  height: auto;
+}
+.textentreprise{
+  font-size: 20px;
+  margin-bottom:10% ;
+  margin-left: 6%;
+  margin-right: 15%;
+}
+p{
+   font-family:georgia,"times new   roman",times,serif;
+}
+
+.titreouvrages{
+  position:absolute;
+  margin-left: 10%;
+  margin-top: 8%;
+  font-size: 55px;
+  color: white;
+}
+.titrecouvertures{
+  position:absolute;
+  margin-left: 42%;
+  margin-top: 8%;
+  font-size: 55px;
+  color: white;
+}
+.titrecharpentes{
+  position:absolute;
+  margin-left: 75%;
+  margin-top: 8%;
+  font-size: 55px;
+  color: white;
+}
+h5
+{ 
+  font-family: 'Arial';
+  margin-bottom:2%;
+  margin-left: 6%;
+    font-size: 40px; /* Titres de 40 pixels */
+}
+
+.imgcharpente2{
+  position: absolute;
+  width: 500px;
+  height: auto;
+  margin-left: 25%;
+  margin-top: -20%;
+  margin-bottom: auto;
+  flex: 1 1 auto;
+}
+.imgcharpente4{
+  position: absolute;
+  width: 500px;
+  height: auto;
+  margin-left: 25%;
+  margin-top: 1%;
+  margin-bottom: auto;
+  flex: 1 1 auto;
+}
+.imgcharpente{
+  width: 500px;
+  height: auto;
+  margin-top: 1%;
+  margin-bottom: auto;
+  flex: 1 1 auto;
+}
+pre{
+   font-family:georgia,"times new   roman",times,serif;
+   font-size: 20px;
+}
+h6{
+  font-weight: 900;
+  font-family: 'Arial';
+    font-size: 30px;
+ }
+ .titrecharpente{
+  margin-top: -20.4%;
+  margin-left: 27.5%;
+  position: absolute;
+
+ }
+ .titre2charpente{
+  margin-top: -20.4%;
+  margin-left: 27.5%;
+  position: absolute;
+ }
+ .titre3charpente{
+  margin-top: -41.2%;
+  margin-left: 79%;
+  position: absolute;
+
+ }
+
+.titre4charpente{
+  margin-top: -20.4%;
+  margin-left: 79%;
+  position: absolute;
+ }
+
+
+.textcharpente
+{ position: absolute;
+  margin-top: -16.4%;
+  margin-left: 24.5%;
+}
+.text2charpente{
+  position: absolute;
+  margin-top: -16.4%;
+  margin-left: 24.5%;
+}
+.text3charpente
+{
+  margin-top: -37.4%;
+  margin-left: 76%;
+    position: absolute;
+}
+.text4charpente{
+  margin-top: -16.4%;
+  margin-left: 76%;
+    position: absolute;
+}
+h4{
+    position: absolute;
+  margin-left: 40%;
+  margin-top: 6%;
+  color: white;
+  font-size: 75px;
+
+}
+.titrebandecharpente{
+  font-family: 'Arial';
+    font-size: 30px;
+    position: absolute;
+  margin-left: 28%;
+  margin-top: 11%;
+  color: white;
+
+}

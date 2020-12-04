@@ -1,18 +1,16 @@
 <!DOCTYPE html >
 <html lang="fr">
 <head>
-   <link rel="stylesheet" href="style.css" />
+   <link rel="stylesheet" href="Styles5.css" />
    <meta charset="utf-8">
    <title>Contact</title>
 </head>
 <body>
-   
-        <header>
-            <div class="header">
-                <a href="acceuil.html">
-                    <img src=".\image\logo.png">
+    <header>
+         <div class="header">
+                <a  href="accueil.html">
+                    <img class="logo" src=".\image\logo2.png">
                 </a>
-
                 <a class="un" href="accueil.html"><h2>Accueil</h2></a>
 
                 <a class="deux" href="charpente.html"><h2>Charpentes</h2></a>
@@ -26,57 +24,145 @@
                 <a class="six" href="contact.html"><h2>Contact</h2></a>
             </div>
             </header>
-           <div class="body">
-               
-           
-
-            
-            <fieldset><legend><p>News : </p></legend>
+<div class="fontcontact">
+        <img class="longimg"src=".\image\contactimg.jpg">
+    </div>
+        <div class="test1"></div>
+        <div class="fontbody" >
+    <div class="centrecontact">
 <center>
-<form action="#" method="POST">
-    <label for="prenom">Prénom : <input name="prenom" type="text" id="prenom" required placeholder="entrer votre nom"></label>
-    <br><br>
-    <label for="nom">Nom : <input name="nom" type="text" id="nom" placeholder="entrer votre prenom"></label>
-    <br><br>
-    <label for="adresse">Adresse : <input name="adresse" type="adresse" id="adresse"
-               required placeholder="entrer votre adresse"></label>
-    <br><br>
-    <label for="numero">Numero : <input name="numero" type="tel"  id="numero"required placeholder="entrer votre numero" pattern="[0-9]{10}" step="10"></label>
-    <br><br>
-    <label for="mail">Adresse e-mail : <input name="mail" type="email" id="mail"required placeholder="nomutilisateur@beststartupever.com"></label>
-    <br><br>
-    <label for="message">Message : <textarea name="message" id="message" cols="30" rows="10"required placeholder="J'aimerai bien refaire mes escalier"></textarea></label>
-    <br><br>
-    <input type="reset" value="Reset">
-    <a href="accueil.html" ><input class="favorite styled"  type="submit" value="Envoyer"> </a>
-</form>
+        <p><h2 class="cadre">Allez plus que quelques minutes avant de nous contacter</h2></p>
 </center>
-            </p></fieldset>
-        </div>
+<form>
+
+
+        <table>
+        <td><label for="name">Nom :</label><br>
+        <input type="text" name="name" id="name" placeholder="Entrez votre Nom " size="48%"required></td>
+
+        <td><label for="prenom">Prénom :</label><br>
+        <input type="text" name="prenom" id="prenom" placeholder="Entrez votre Prénom " size="49%" required></td>
+        </table>
+        <br>
+
+        <label for="Adresse">Adresse :</label><br>
+        <input type="text" name="Adresse" id="Adresse" placeholder="Entrez votre adresse "size="103.9%" required>
+        <br>
+        <br>
+
+
+        <label for="adresseP">Adresse postal :</label><br>
+        <input type="text" name="adresseP" id="adresseP" placeholder="Entrez votre adresse postale " size="103.9%" required><br>
+        <br>
+
+        <table>
+        <td><label for="Ville">Ville :</label><br>
+        <input type="text" name="Ville" id="Ville" placeholder="Entrez votre ville " size="48%" required></td>
+
+        <td><label for="codeP">Code postal :</label><br>
+        <input type="text" name="codeP" id="codeP" 
+         pattern="[0-9]{5}"  size="49%" placeholder="Entrez votre code postal " required></td>
+        </table>
+        <br>
+        
+        <table>
+        <td><label for="mail">E-mail :</label><br>
+        <input type="email" name="mail" id="mail" placeholder="Entrez votre mail " size="48%" required></td>
+
+        <td><label for="telephone">Téléphone :</label><br>
+        <input type="tel" name="telephone" id="telephone"
+        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Entrez votre téléphone " size="49%" required></td>
+        </table>
+        <br>
+
+        <input type="radio" id="entreprise" name="drone" value="entreprise"
+        checked>
+        <label for="entreprise">Une entreprise</label>
+        <br>
+
+        <input type="radio" id="particulier" name="drone" value="particulier"
+        checked>
+        <label for="particulier">Un(e) particulier</label>
+        <br>
+        <br>
+
+        <label for="Objet">Objet de votre message :</label><br>
+        <input type="text" name="Objet" id="Objet" placeholder="Entrez l'objet de votre message " size="48%" required>
+        <br>
+        <br>
+
+        <label for="message">Entrez votre message :</label><br>
+        <textarea name="message" id="message" placeholder="Entrez votre message " cols="105" rows="8" required></textarea>
+        <br><br>
+
+        <center>
+        <input class="bouton" type="button" value="Envoyer">
+        </center>
+    </form>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <footer>
            <div class="pieds">
-            <a href=""><img src=".\image\Logo2.png" height="150" width="107"></a>
-            <ul>
-                <li><a href=""><h3>devrons</h3></a></li>
-                <li><a href=""><h3>devrons</h3></a></li>
-                 <li><a href=""><h3>devrons</h3></a></li>
 
-            </ul>
-            <ul>
-                <li><a href=""><h3>devrons</h3></a></li>
-                <li><a href=""><h3>devrons</h3></a></li>
-                 <li><a href=""><h3>devrons</h3></a></li>
+<a class="unbas" href=""><img class="logobas" src="./image/Logo crea/logo_qualibat.png"></a>
 
-            </ul>
-            <ul>
-                <li><a href=""><h3>devrons</h3></a></li>
-                <li><a href=""><h3>devrons</h3></a></li>
-                 <li><a href=""><h3>devrons</h3></a></li>
+<a class="deuxbas" href=""><img class="logobas" src="./image/Logo crea/logo-maitreartisan.png"></a>
 
+<a class="troisbas" href=""><img class="logobas" src="./image/Logo crea/fondation-du-patrimoine.jpg"></a>
+
+            <ul class="quatrebas">
+                <li><a href="accueil.html"><h3>Accueil</h3></a></li>
+                <li><a href="ouvrage.html"><h3>Ouvrages</h3></a></li>
+                <li><a href="couverture.html"><h3>Couvertures</h3></a></li>
+                <li><a href="charpente.html"><h3>Charpentes</h3></a></li>
             </ul>
 
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10812.407375824883!2d0.6933579397277544!3d47.35140956669541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47fcd68d00ab04cb%3A0x336f2f95e62b2ab6!2sParc%20de%20Grandmont%2C%2037200%20Tours!5e0!3m2!1sfr!2sfr!4v1604954884397!5m2!1sfr!2sfr" width="225" height="150" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-           </div>
+            <ul class="cinqbas">
+                <li><a href="./nousrejoindre.html"><h3>Nous Rejoindre</h3></a></li>
+                <li><a href="./"><h3>Politique de confidentialité</h3></a></li>
+                 <li><a href="./"><h3>Mentions Légales</h3></a></li>
+                 <li><a href="./"><h3>Les Partenaires</h3></a></li>
+            </ul>
+
+            <div class="sixbas">
+               <p ><h3>
+                   Adresse :
+                   <br>
+                   53 rue de la république
+                   <br>
+                   BP 46 37800 SEPMES
+                   <br>
+                   Téléphone : 02 47 65 44 65
+                   <br><br>
+                   Email : dubois@groupedubois.fr
+           </h3></p>
+            </div>
+        </div>
+            <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10812.407375824883!2d0.6933579397277544!3d47.35140956669541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47fcd68d00ab04cb%3A0x336f2f95e62b2ab6!2sParc%20de%20Grandmont%2C%2037200%20Tours!5e0!3m2!1sfr!2sfr!4v1604954884397!5m2!1sfr!2sfr" width=100% height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+           
         </footer>
         </body>
         </html>
