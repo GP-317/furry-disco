@@ -26,7 +26,34 @@
                 <a class="six" href="contact.html"><h2>Contact</h2></a>
             </div>
             </header>
-            <img class="bandeaccueil" src="./image/Ouvrages/bande d'accueils.jpg">
+			<div id="slider">
+			  <input type="radio" id="show_slide1" name="slider_commands">
+			  <input type="radio" id="show_slide2" name="slider_commands">
+			  <input type="radio" id="show_slide3" name="slider_commands">
+			  <input type="radio" id="play_slider" name="slider_commands">
+    <div id="slides">
+        <figure id="slide1">
+            <img src="./image/Charpentes/charpente2.jpg" alt="Charpentes">
+            <figcaption>Charpentes</figcaption>
+        </figure>
+        <figure id="slide2">
+            <img src="./image/Couvertures/HPIM2882.jpg" alt="Couvertures">
+            <figcaption>Couvertures</figcaption>
+        </figure>
+        <figure id="slide3">
+            <img src="./image/Ouvrages/ouvrage1.jpg" alt="Ouvrages">
+            <figcaption>Ouvrages</figcaption>
+        </figure>
+   </div>
+    <nav>
+        <ul class="dots_commands">
+            <li><label for="show_slide1">Slide 1</label></li>
+            <li><label for="show_slide2">Slide 2</label></li>
+            <li><label for="show_slide3">Slide 3</label></li>
+        </ul>
+		   <label for="play_slider" aria-label="Play" id="play" title="Play">Play</label>
+    </nav>
+</div>
             <table class="accueilentreprise">
                 <td><img class="entreprise" src="./image/Accueil.jpg"></td>
                 <td><h5>L’entreprise</h5><p class="textentreprise"> 
